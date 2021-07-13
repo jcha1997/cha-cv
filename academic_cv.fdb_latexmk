@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1626153705 "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.tex" "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.pdf" "academic_cv" 1626153734
-  "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.aux" 1626153706 707 496933ee1748d0b05c368234d9058cbd ""
-  "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.tex" 1626153733 3860 3515eaeb6817af4af0b5e6a0fabf0a34 ""
+["pdflatex"] 1626187738 "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.tex" "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.pdf" "academic_cv" 1626187739
+  "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.aux" 1626187739 707 496933ee1748d0b05c368234d9058cbd ""
+  "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.tex" 1626187738 3899 e317f4dbd046010f92dc9143752a498f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -69,14 +69,14 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1620702081 2724744 bf84b9c390838242b6718d386188175d ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "academic_cv.aux" 1626153706 707 496933ee1748d0b05c368234d9058cbd "pdflatex"
-  "academic_cv.out" 1626153706 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "academic_cv.tex" 1626153733 3860 3515eaeb6817af4af0b5e6a0fabf0a34 ""
+  "academic_cv.aux" 1626187739 707 496933ee1748d0b05c368234d9058cbd "pdflatex"
+  "academic_cv.out" 1626187739 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "academic_cv.tex" 1626187738 3899 e317f4dbd046010f92dc9143752a498f ""
   "res.cls" 1620330271 25076 07e55824923689e87a14685a6e06ef4f ""
   (generated)
-  "academic_cv.log"
-  "academic_cv.aux"
-  "academic_cv.pdf"
   "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.pdf"
-  "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.log"
   "academic_cv.out"
+  "academic_cv.pdf"
+  "academic_cv.aux"
+  "/Users/jeremiahcha/Desktop/github/cha-cv/academic_cv.log"
+  "academic_cv.log"
