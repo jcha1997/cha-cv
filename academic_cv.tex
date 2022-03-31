@@ -1,12 +1,25 @@
 % LaTeX resume using res.cls
 \documentclass[margin, line]{res}
 
-\usepackage{marvosym}
-\usepackage{wasysym}
+
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage{multicol}
 \usepackage{etaremune}
+\usepackage{marvosym}
+\usepackage{multicol}
+\usepackage{xcolor}	
+\usepackage{wasysym}
+
+\definecolor{crimson}{rgb}{0.86, 0.08, 0.24}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=crimson,
+    filecolor=crimson,      
+    urlcolor=crimson,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 
 \sectionskip=1.5ex plus 1ex minus -.2ex % values stolen from LaTeX
 \begin{document}
@@ -14,21 +27,20 @@
 \name{Jeremiah Cha}
 \begin{resume}
 
-\section{Research\\Interests}
-American Politics, Congress, Representation, Legislative Organization\\
-Political Methodology
-
 \section{Contact}
 Harvard Department of Government \hfill \Letter: \href{mailto:jeremiahcha@g.harvard.edu}{jeremiahcha@g.harvard.edu}\\
-1737 Cambridge Street \hfill \Mundus: \href{httsp://www.jeremiahcha.com}{www.jeremiahcha.com}\\
-Cambridge, MA 02138 \hfill \Mundus: \href{https://orcid.org/0000-0003-3199-3386}{orcid.org/0000-0003-3199-3386}
+\mbox{} \hfill \Mundus: \href{httsp://www.jeremiahcha.com}{www.jeremiahcha.com}\\
+\mbox{} \hfill \Mundus: \href{https://orcid.org/0000-0003-3199-3386}{orcid.org/0000-0003-3199-3386}
 
 \section{Education}
-Ph.D. in Government, Harvard University \hfill Expected 2026\\
-\hspace*{5mm}Graduate Affiliate, Center for American Political Studies
+\textbf{Harvard University}\\
+\hspace*{5mm} Ph.D., Government \hfill Expected 2026\\
+\hspace*{10mm}Graduate Affiliate, Center for American Political Studies\\
+\hspace*{5mm} A.M., Government \hfill Expected 2023
 
-B.A. in Political Science, UC San Diego \hfill 2019\\
-\hspace*{5mm}\textit{magna cum laude}, department honors
+\textbf{University of California, San Diego}\\
+\hspace*{5mm} B.A., Political Science (High Honors) \hfill 2019\\
+\hspace*{10mm} \textit{magna cum laude}
 
 \section{Grants and \\Awards}
 V.O. Key Fellowship \hfill 2020 - \\
@@ -36,29 +48,24 @@ Phi Beta Kappa \hfill 2019\\
 High Honors Distinction, UCSD Political Science \hfill 2019\\
 Pi Sigma Alpha \hfill 2017
 
-
 \section{Selected Works \\in Progress}
-\begin{enumerate}
+\begin{etaremune}
 	\item ``A Model of Minority Candidate Emergence''
 	\item ``Drawing Blanks: Redistricting and Turnout Effects'' (with Angelo Dagonel and Kiara Hernandez)
 	\item ``The Direct Primary Election'' (with James M. Snyder, Jr.)
 	\item ``The President and the Cardinals: Interbranch Bargaining and Subcommittee Influence in Federal Appropriations'' (with Jon Rogowski)
-\end{enumerate}
+\end{etaremune}
 
 \section{Data}
-\begin{enumerate}
+\begin{etaremune}
 	\item Cha, Jeremiah, Shiro Kuriwaki, and James M. Snyder, Jr. (2021). ``Candidates in American General Elections.'' Harvard Dataverse. \textsc{doi}: \href{https://doi.org/10.7910/DVN/DGDRDT}{\texttt{10.7910/DVN/DGDRDT}}.
-\end{enumerate}
+\end{etaremune}
 
-\section{Research Experience}
-Professor Jon Rogowski, University of Chicago \hfill 2022 \\
-Professor Stephen Ansolabehere, Harvard \hfill 2021 \\
-Pew Research Center, Global Attitudes \hfill 2019 - 2020\\
-Professor Tom K. Wong, UC San Diego \hfill 2017 - 2019\\
-Brookings Institution, Governance Studies \hfill Summer 2018
+\section{Teaching}
+\textbf{Harvard College}\\
+Introduction to American Government, Department of Government (Undergraduiate) 
 
 \section{Non-refereed Publications}
-
 \begin{etaremune}
 	\item Devlin, Kat, Regina Widjaya and Jeremiah Cha. 2020. ``For Global Legislators on Twitter, an Engaged Minority Creates Outsize Share of Content.'' Pew Research Center.
 	\item Cha, Jeremiah. 2020. ``Fast facts about South Koreans’ views of democracy as legislative election nears.'' Pew Research Center.
@@ -72,11 +79,19 @@ Brookings Institution, Governance Studies \hfill Summer 2018
 
 
 \section{Service}
+American Politics Research Workshop Coordinator \hfill 2022 - \\
 Rules and Election Officer, Harvard Government GSA \hfill 2021 -\\
 Diversity Committee Member, Harvard University \hfill 2020 -
 
 \section{Invited Talks}
 Pew Research Center Graduate School Panel \hfill June 2020
+
+\section{Research Experience}
+Professor Jon Rogowski, University of Chicago \hfill 2022 -\\
+Professor Stephen Ansolabehere, Harvard \hfill 2021 \\
+Pew Research Center, Global Attitudes \hfill 2019 - 2020\\
+Professor Tom K. Wong, UC San Diego \hfill 2017 - 2019\\
+Brookings Institution, Governance Studies \hfill Summer 2018
 
 \section{Non-Academic Experience}
 House of Representatives, Intern \hfill Summer 2017\\
@@ -87,7 +102,7 @@ Chaminade College Prep, Debate Coach \hfill 2015 - 2018
 Technical: R, Stata, SPSS, \LaTeX, HTML\\
 Language: Korean (Limited Working)
 
-\hfill \small{\textit{Updated Feb 2022}}
+\hfill \small{\textit{Updated April 2022}}
 
 \end{resume}
 \end{document}
