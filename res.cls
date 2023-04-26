@@ -273,7 +273,7 @@
 % unless you really understand all of this but it is not
 % hard.  Either way, it can only be executed once
 %
-\def\sectionfont{\scshape \small}
+\def\sectionfont{\normalsize}
 \newdimen\sectionwidth
 \newskip\sectionskip
 \newdimen\resumewidth
